@@ -51,7 +51,7 @@ public class MainActivity extends Activity {
 	class MyAdapter extends BaseAdapter{
 
 		@Override
-		public int getCount() {
+		public int getCount1() {
 			// TODO Auto-generated method stub
 			return ImageMock.imageThumbUrls.length;
 		}
