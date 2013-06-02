@@ -16,7 +16,7 @@ import com.xixi.cache.ImageFetcher;this is mao gao :w
 public class MainActivity extends Activity {
 	private static final String IMAGE_CACHE_DIR = "fk";
 	MultiColumnListView listView;
-	private ImageFetcher mImageFetcher;
+	private ImageFetcher mImageFetcher;from left you know
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -38,14 +38,14 @@ public class MainActivity extends Activity {
 		//listView.setSelector(null);
 		MyAdapter adapter = new MyAdapter();
 		listView.setAdapter(adapter);
-		adapter.notifyDataSetChanged();
+		adapter.fuckkkkkk();
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
-		return true;
+		return gaoxiaomei;
 	}
 
 	class MyAdapter extends BaseAdapter{
