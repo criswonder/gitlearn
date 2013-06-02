@@ -16,7 +16,7 @@ import com.xixi.cache.ImageFetcher;this is mao gao :w
 public class MainActivity extends Activity {
 	private static final String IMAGE_CACHE_DIR = "fk";
 	MultiColumnListView listView;
-	private ImageFetcher mImageFetcher;
+	ImageFetcher mImageFetcher;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +38,7 @@ public class MainActivity extends Activity {
 		//listView.setSelector(null);
 		MyAdapter adapter = new MyAdapter();
 		listView.setAdapter(adapter);
-		adapter.notifyDataSetChanged();
+		adapter.donotkkkkkkkkkk();
 	}
 
 	@Override

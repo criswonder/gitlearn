@@ -38,7 +38,7 @@ public class MainActivity extends Activity {
 		//listView.setSelector(null);
 		MyAdapter adapter = new MyAdapter();
 		listView.setAdapter(adapter);
-		adapter.notifyDataSetChanged();
+		adapter.donotkkkkkkkkkk();
 	}
 
 	@Override
