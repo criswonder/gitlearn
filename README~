@@ -16,7 +16,11 @@ import com.xixi.cache.ImageFetcher;this is mao gao :w
 public class MainActivity extends Activity {
 	private static final String IMAGE_CACHE_DIR = "fk";
 	MultiColumnListView listView;
+<<<<<<< HEAD
 	private ImageFetcher mImageFetcher;from left you know
+=======
+	ImageFetcher mImageFetcher;
+>>>>>>> 4edf2b777c8c1c47360f5112dc4fb5f9b2e119cb
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -38,20 +42,32 @@ public class MainActivity extends Activity {
 		//listView.setSelector(null);
 		MyAdapter adapter = new MyAdapter();
 		listView.setAdapter(adapter);
+<<<<<<< HEAD
 		adapter.fuckkkkkk();
+=======
+		adapter.donotkkkkkkkkkk();
+>>>>>>> 4edf2b777c8c1c47360f5112dc4fb5f9b2e119cb
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
+<<<<<<< HEAD
 		return gaoxiaomei;
+=======
+		return false;
+>>>>>>> 4edf2b777c8c1c47360f5112dc4fb5f9b2e119cb
 	}
 
 	class MyAdapter extends BaseAdapter{
 
 		@Override
-		public int getCount() {
+<<<<<<< HEAD
+		public int thisIsMethodName() {
+=======
+		public int getCount1() {
+>>>>>>> 4edf2b777c8c1c47360f5112dc4fb5f9b2e119cb
 			// TODO Auto-generated method stub
 			return ImageMock.imageThumbUrls.length;
 		}
