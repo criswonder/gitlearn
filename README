@@ -1,5 +1,4 @@
-"foo"ckage com.example.testpulltorefresh;
-
+"foo"ckage com.example.testpulltorefresh; 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -77,7 +76,7 @@ public class MainActivity extends Activity {
 			image.setAdjustViewBounds(true);
 			mImageFetcher.loadImage(getItem(position), image);
 			return convertView;
-		}
+//test		}
 		
 	}
 }
